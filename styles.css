@@ -1,13 +1,14 @@
 body{
     min-height: 100vh;
     margin: 0;
+    padding: 0;
+    background-color: gainsboro;
 }
 
 .background-container{
     background-image: url('./imagens/bg-2.jpg') ;
     height: 30em;
     width: 100%;
-    margin: 0;
     background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,6 +36,10 @@ li{
     background-color: dimgray;
     border: 2px solid white;
     opacity: 0.7;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 
 h1{
@@ -66,5 +71,59 @@ h2{
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); 
     -webkit-text-stroke: 0.5px black; 
     color: white;
+}
+
+main{
+    background-color: gainsboro;
+    margin: 0 auto;
+}
+.main-card{
+    background-color: white;
+    margin: 0 auto 3em auto;
+    padding: 3em auto 3em auto;
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card-title{
+    background-color: gainsboro;
+    margin: 10px;
+    padding: 10px 0 10px 10px;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.card-p{
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 1em;
+    margin: 10px 10px 0 10px;
+    padding: 10px 30px 0px 10px;
+}
+
+.card-button{
+    width: 100px;
+    height: 50px;
+    border-bottom: 2px solid black;
+    border-radius: 5%;
+    margin: auto 0 30px 20px;
+}
+
+.card-button:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.footer-container{
+    background-color: gray;
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 10px 0 10px 0;
+    color: white;
+    height: 50px;
 }
 
